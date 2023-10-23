@@ -15,10 +15,9 @@ client_scripts { 'client/main.lua' }
 files {
     'html/index.html',
     'html/css/style.css',
+    'html/img/plate.svg',
     'html/js/script.js'
 }
-
-
 
 exports {
     'Progress',
