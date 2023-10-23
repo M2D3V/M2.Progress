@@ -1,5 +1,5 @@
 # M2.Progress
-Thank for base progress bar => (mythic_progbar)[https://github.com/HalCroves/mythic_progbar] resource, custom by M2Dev
+Thank for base progress bar => [mythic_progbar](https://github.com/HalCroves/mythic_progbar) resource, custom by M2Dev
 ## ** หลอดโหลดแก้ไขจาก mythic **
 
 หลอดโหลดเอาไว้ใช้กันนะครับ  <br>
@@ -10,18 +10,16 @@ Thank for base progress bar => (mythic_progbar)[https://github.com/HalCroves/myt
 
 ### รายการแก้ไข
 ```diff 
-  การใช้เหมือนเดิมแต่ต้องรู้สิ่งที่เพิ่มก่อนนะครับ
-! Custom UI ทั้งหมด
-! แก้ไขจาก Fixed ขนาดให้รองรับ Responsive (ทุกขนาดหน้าจอ)
-! เพิ่ม ไอคอน (ด้านหน้า Label) ทำให้ไม่โล่งเกินไป
-! หลอดโหลดมีพื้นหลังระยิบระยับเพื่อความสวยงาม ลบได้ใน css
-! รูปภาพสามารถเพิ่มในการทำงานได้ทุกครั้ง รองรับ GIF และ ไฟล์รูปทุกชนิด
+## การใช้เหมือนเดิมแต่ต้องรู้สิ่งที่เพิ่มก่อนนะครับ
++ Custom UI ทั้งหมด
++ แก้ไขจาก Fixed ขนาดให้รองรับ Responsive (ทุกขนาดหน้าจอ)
++ เพิ่ม ไอคอน (ด้านหน้า Label) ทำให้ไม่โล่งเกินไป
++ หลอดโหลดมีพื้นหลังระยิบระยับเพื่อความสวยงาม ลบได้ใน css
++ รูปภาพสามารถเพิ่มในการทำงานได้ทุกครั้ง รองรับ GIF และ ไฟล์รูปทุกชนิด
 - ปรับเปลี่ยน JS นิดหน่อยเพื่อที่จะให้ใช้ได้แบบ ไดนามิก (ปรับสีหลอดได้)
 ```
-<br>
-## การใช้งาน 
-<br>
 
+## การใช้งาน
 ```lua 
 ตัวอย่างการ Trigger และ Options
 
@@ -57,4 +55,4 @@ end)
 Credit : [@M2Dev]() <br>
 Discord : [M2.Developer](https://discord.gg/pBsj94TaJT) <br>
 Github : [https://github.com/M2D3V/M2.Progress](https://github.com/M2D3V/M2.SpawnPoint) <br>
-Download : [https://github.com/M2D3V/M2.Progress/releases/tag/v1.0-](https://github.com/M2D3V/M2.Progress/releases/tag/v1.0-beta)
+Download : [https://github.com/M2D3V/M2.Progress/releases/tag/v1.0-beta](https://github.com/M2D3V/M2.Progress/releases/tag/v1.0-beta)
