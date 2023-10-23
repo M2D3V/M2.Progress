@@ -55,4 +55,4 @@ end)
 Credit : [@M2Dev]() <br>
 Discord : [M2.Developer](https://discord.gg/pBsj94TaJT) <br>
 Github : [https://github.com/M2D3V/M2.Progress](https://github.com/M2D3V/M2.SpawnPoint) <br>
-Download : [https://github.com/M2D3V/M2.Progress/releases/tag/v1.0-beta](https://github.com/M2D3V/M2.Progress/releases/tag/v1.0-beta)
+Download : [last-M2.Progress-v1.0-beta](https://github.com/M2D3V/M2.Progress/releases/download/v1.0-beta/M2.Progress.rar) <br>
