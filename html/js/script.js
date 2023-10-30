@@ -1,4 +1,7 @@
+// const ResourceName = GetCurrentResourceName();
+const ResourceName = 'M2.Progress';
 $('document').ready(function() {
+
     MythicProgBar = {};
 
     MythicProgBar.Progress = function(data) {
@@ -18,9 +21,7 @@ $('document').ready(function() {
           complete: function() {
             $(".progress-container").css({"display":"none"});
             $("#progress-bar").css("width", 0);
-            $.post('https://mythic_progbar/actionFinish', JSON.stringify({
-                })
-            );
+            $.post(`https://${ResourceName}/actionFinish`, JSON.stringify({}));
           }
         });
     };
@@ -34,9 +35,7 @@ $('document').ready(function() {
         setTimeout(function () {
             $(".progress-container").css({"display":"none"});
             $("#progress-bar").css("width", 0);
-            $.post('https://mythic_progbar/actionCancel', JSON.stringify({
-                })
-            );
+            $.post(`https://${ResourceName}/actionCancel`, JSON.stringify({}));
         }, 1000);
     };
 

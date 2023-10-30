@@ -47,9 +47,9 @@ function Progress(action, finish)
             SendNUIMessage({
                 action = "mythic_progress",
                 duration = mythic_action.duration,
-                color = mythic_action.color or "#d449ab",
+                color = mythic_action.color or "#ff88ff",
                 image = mythic_action.picURL or "https://media2.giphy.com/media/w6ECVXRl2YO3QL82j1/200w.webp",
-                icon = mythic_action.nameicon or "sync_problem",
+                icon = mythic_action.nameicon or "sync",
                 label = mythic_action.label or "กำลังดำเนินการ..."
             })
 
@@ -85,9 +85,9 @@ function ProgressWithStartEvent(action, start, finish)
             SendNUIMessage({
                 action = "mythic_progress",
                 duration = mythic_action.duration,
-                color = mythic_action.color or "#d449ab",
+                color = mythic_action.color or "#ff88ff",
                 image = mythic_action.picURL or "https://media2.giphy.com/media/w6ECVXRl2YO3QL82j1/200w.webp",
-                icon = mythic_action.nameicon or "sync_problem",
+                icon = mythic_action.nameicon or "sync",
                 label = mythic_action.label or "กำลังดำเนินการ..."
             })
 
@@ -126,9 +126,9 @@ function ProgressWithTickEvent(action, tick, finish)
             SendNUIMessage({
                 action = "mythic_progress",
                 duration = mythic_action.duration,
-                color = mythic_action.color or "#d449ab",
+                color = mythic_action.color or "#ff88ff",
                 image = mythic_action.picURL or "https://media2.giphy.com/media/w6ECVXRl2YO3QL82j1/200w.webp",
-                icon = mythic_action.nameicon or "sync_problem",
+                icon = mythic_action.nameicon or "sync",
                 label = mythic_action.label or "กำลังดำเนินการ..."
             })
 
@@ -167,9 +167,9 @@ function ProgressWithStartAndTick(action, start, tick, finish)
             SendNUIMessage({
                 action = "mythic_progress",
                 duration = mythic_action.duration,
-                color = mythic_action.color or "#d449ab",
+                color = mythic_action.color or "#ff88ff",
                 image = mythic_action.picURL or "https://media2.giphy.com/media/w6ECVXRl2YO3QL82j1/200w.webp",
-                icon = mythic_action.nameicon or "sync_problem",
+                icon = mythic_action.nameicon or "sync",
                 label = mythic_action.label or "กำลังดำเนินการ..."
             })
 

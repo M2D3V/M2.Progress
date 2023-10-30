@@ -1,3 +1,6 @@
+-- NC PROTECT+
+-- client_scripts { '@nc_PROTECT+/exports/cl.lua' }
+
 fx_version 'cerulean'
 game 'gta5'
 
